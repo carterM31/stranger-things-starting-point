@@ -14,11 +14,11 @@ const NewUser = () => {
         setPassword("");
     };
 
-    const handleUsernameChange = (event) => {
-        setUsername(event.target.value);
+    const handleUsernameChange = (e) => {
+        setUsername(e.target.value);
       }
-    const handlePasswordChange = (event) => {
-        setPassword(event.target.value);
+    const handlePasswordChange = (e) => {
+        setPassword(e.target.value);
       }
     return (
         <div>

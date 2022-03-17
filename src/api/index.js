@@ -8,7 +8,7 @@ export const getPosts = async () => {
     return json;
 } 
 
-export const testAutentication = async () => {
+export const testAuthentication = async () => {
 
     const url = `${baseUrl}/test/me`;
     const token = localStorage.setItem('stranger_things_JWT');

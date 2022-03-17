@@ -1,12 +1,12 @@
 
    
 import React from "react";
-import { testAutentication } from "./api";
+import { testAuthentication } from "./api";
 
 const LoginPage = () => {
     return(
     <div>
-        <button onClick={testAutentication}>Log in</button>
+        <button onClick={testAuthentication}>Log in</button>
     </div>
     );
 };
