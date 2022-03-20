@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getPosts } from './api';
 //useEffect example
 const PostList = () => {
-    const [posts, setPosts] = useState([]);
+    const [posts, setPosts] = useState(["default value"]);
 
     useEffect(async () => {
         const posts = await getPosts();

@@ -59,7 +59,7 @@ const PostForm = () => {
         <label>Will deliver?</label>
         <input type="checkbox" value={willDeliver} onChange={handleDeliverChange} />
         <button onClick={handlePostButtonClick}>
-          Make Post Request!
+          Make Post Request
         </button>
     </div>
   );

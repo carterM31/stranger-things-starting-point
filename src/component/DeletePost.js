@@ -4,7 +4,7 @@ import { deletePostById } from "./api";
 const DeletePost = () => {
   return(
     <div>
-        <button onClick={deletePostById}>Delete post?</button>
+        <button onClick={deletePostById}>Delete Post</button>
     </div>
   );
 };
